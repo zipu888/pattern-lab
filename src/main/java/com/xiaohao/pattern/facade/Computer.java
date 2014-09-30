@@ -2,7 +2,7 @@ package com.xiaohao.pattern.facade;
 
 /**
  * Created by xiaohao on 2014/9/30.
- *
+ * <p/>
  * this class is the facede of cpu harddrive memory
  */
 public class Computer {
@@ -11,14 +11,14 @@ public class Computer {
     private Memory memory;
     private HardDrive hardDrive;
 
-    public Computer(){
+    public Computer() {
         cpu = new CPU();
         memory = new Memory();
         hardDrive = new HardDrive();
     }
 
 
-    public void startComputer(){
+    public void startComputer() {
         cpu.processData();
         memory.loadData();
         hardDrive.readData();

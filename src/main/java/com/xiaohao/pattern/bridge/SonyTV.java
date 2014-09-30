@@ -17,6 +17,6 @@ public class SonyTV implements ITV {
 
     @Override
     public void switchChannel(int channel) {
-        System.out.println("snoyTv has change channel to "+channel+"...");
+        System.out.println("snoyTv has change channel to " + channel + "...");
     }
 }

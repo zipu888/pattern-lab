@@ -5,13 +5,13 @@ package com.xiaohao.pattern.iterator;
  */
 public class TestIterator {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
 
         RecordCollection recordCollection = new RecordCollection();
 
-        IIterator iIterator =recordCollection.createIterator();
+        IIterator iIterator = recordCollection.createIterator();
 
-        while (iIterator.hasNext()){
+        while (iIterator.hasNext()) {
 
             System.out.println(iIterator.next());
 

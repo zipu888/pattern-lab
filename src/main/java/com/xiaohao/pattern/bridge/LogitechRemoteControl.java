@@ -9,7 +9,7 @@ public class LogitechRemoteControl extends AbstractRemoteControl {
         super(tv);
     }
 
-    public void setChannelKeyboard(int channel){
+    public void setChannelKeyboard(int channel) {
         setChannel(channel);
         System.out.println("Logitech use keyword to set channel.");
     }

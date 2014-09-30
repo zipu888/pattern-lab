@@ -5,7 +5,7 @@ package com.xiaohao.pattern.facade;
  */
 public class Memory {
 
-    public void loadData(){
+    public void loadData() {
         System.out.println("load data to memory...");
     }
 

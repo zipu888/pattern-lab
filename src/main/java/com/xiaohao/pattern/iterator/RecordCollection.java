@@ -5,24 +5,24 @@ package com.xiaohao.pattern.iterator;
  */
 public class RecordCollection implements IContainer {
 
-    private String recordArray[] = {"first","second","third","fourth","fifth"};
+    private String recordArray[] = {"first", "second", "third", "fourth", "fifth"};
 
     @Override
     public IIterator createIterator() {
         return null;
     }
 
-    private class RecordIterator implements IIterator{
+    private class RecordIterator implements IIterator {
         private int index;
 
-        public boolean hasNext(){
+        public boolean hasNext() {
             if (index < recordArray.length)
                 return true;
             else
                 return false;
         }
 
-        public Object next(){
+        public Object next() {
             if (this.hasNext())
                 return recordArray[index++];
             else

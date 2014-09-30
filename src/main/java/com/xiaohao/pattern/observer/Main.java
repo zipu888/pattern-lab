@@ -5,7 +5,7 @@ package com.xiaohao.pattern.observer;
  */
 public class Main {
 
-    public static void main(String[] args){
+    public static void main(String[] args) {
         HeadHunter hh = new HeadHunter();
         hh.registerObserver(new JobSeeker("Mike"));
         hh.registerObserver(new JobSeeker("Chris"));

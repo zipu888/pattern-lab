@@ -17,6 +17,6 @@ public class HairTV implements ITV {
 
     @Override
     public void switchChannel(int channel) {
-        System.out.println("hairTv channel has change to "+channel);
+        System.out.println("hairTv channel has change to " + channel);
     }
 }

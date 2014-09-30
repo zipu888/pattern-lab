@@ -7,19 +7,19 @@ public class AbstractRemoteControl {
 
     private ITV tv;
 
-    public AbstractRemoteControl(ITV tv){
+    public AbstractRemoteControl(ITV tv) {
         this.tv = tv;
     }
 
-    public void turnOn(){
+    public void turnOn() {
         tv.on();
     }
 
-    public void turnOff(){
+    public void turnOff() {
         tv.off();
     }
 
-    public void setChannel(int channel){
+    public void setChannel(int channel) {
         tv.switchChannel(channel);
     }
 

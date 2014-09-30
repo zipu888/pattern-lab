@@ -5,7 +5,7 @@ package com.xiaohao.pattern.facade;
  */
 public class HardDrive {
 
-    public void readData(){
+    public void readData() {
         System.out.println("hardDrive read data...");
     }
 

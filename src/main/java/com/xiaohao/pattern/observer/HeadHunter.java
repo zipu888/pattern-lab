@@ -11,7 +11,7 @@ public class HeadHunter implements Subject {
     private ArrayList<Observer> userList;
     private ArrayList<String> jobs;
 
-    public HeadHunter(){
+    public HeadHunter() {
         userList = new ArrayList<Observer>();
         jobs = new ArrayList<String>();
     }
@@ -28,7 +28,7 @@ public class HeadHunter implements Subject {
 
     @Override
     public void notifyAllObservers() {
-        for(Observer o: userList){
+        for (Observer o : userList) {
             o.update(this);
         }
     }
@@ -42,7 +42,7 @@ public class HeadHunter implements Subject {
         return jobs;
     }
 
-    public String toString(){
+    public String toString() {
         return jobs.toString();
     }
 }
