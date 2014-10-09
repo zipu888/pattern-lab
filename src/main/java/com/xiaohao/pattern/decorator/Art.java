@@ -1,4 +1,4 @@
-package decorator;
+package com.xiaohao.pattern.decorator;
 
 /**
  * Created by xiaohao on 2014/10/8.
