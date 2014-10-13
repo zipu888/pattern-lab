@@ -20,6 +20,7 @@
                     <target>1.6</target>
                 </configuration>
             </plugin>
+
             <!--生成源码的 jar-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
