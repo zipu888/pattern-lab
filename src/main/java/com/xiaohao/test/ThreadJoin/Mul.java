@@ -1,4 +1,4 @@
-package com.xiaohao.test.ThreadJoin;
+package com.xiaohao.test.threadJoin;
 
 /**
  * Created by xiaohao on 2014/10/13.
