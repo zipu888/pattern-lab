@@ -5,6 +5,10 @@ package com.xiaohao.pattern.decorator;
  *
  * BufferedReader input = new BufferedReader(new InputStreamReader(System.in));
  * System.in is an InputStream object
+ *
+ * 动态地给一个对象添加一些额外的职责。
+ * 优点：把类中的装饰功能从类中搬移出去，
+ * 这样可以简化原有的类。有效地把类的核心功能和装饰功能区分开了。
  */
 public class Main {
 

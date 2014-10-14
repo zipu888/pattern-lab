@@ -2,6 +2,11 @@ package com.xiaohao.pattern.composite;
 
 /**
  * Created by xiaohao on 2014/10/13.
+ * <p>组合模式</p>
+ * 组合模式主要是应对这样的问题：一类具有“容器特征”的对象 —— 即他们在充当对象的同时，
+ * 又是其他对象的容器的情况。
+ * 将对象组合成树形结构以表示“部分-整体”的层次结构。
+ * 组合模式使得客户对单个对象和组合对象的使用具有一致性
  */
 public class CompositeTest {
 
