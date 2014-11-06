@@ -7,8 +7,11 @@ public class TestCommand {
 
 
     public static void main(String[] args) {
+
         Computer computer = new Computer();
+
         RestartCommand restartCommand = new RestartCommand(computer);
+
         ShutDownCommand shutDownCommand = new ShutDownCommand(computer);
 
         Switch aSwitch = new Switch();
